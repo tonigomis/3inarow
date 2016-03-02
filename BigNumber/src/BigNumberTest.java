@@ -158,35 +158,4 @@ public class BigNumberTest {
         assertEquals(new BigNumber("5673"), b1.div(b2)); */
     }
 
-    @Test
-    public void TestsOpcionals() {
-        // Per optar a una nota de Bé/Notable cal passar també tots aquests tests
-
-        BigNumber b1, b2;
-/*        b1 = new BigNumber("2");
-        b2 = new BigNumber("02");
-        assertEquals(b1, b2);
-        assertEquals(new BigNumber("4"), b1.mult(b2));
-
-        b1 = new BigNumber("6");
-        b2 = new BigNumber("6");
-        assertEquals(b1, b2);
-        assertEquals(new BigNumber("36"), b1.mult(b2));
-
-        b1 = new BigNumber("345345345345345234456456456345345");
-        b2 = new BigNumber("22");
-        assertEquals(new BigNumber("7597597597597595158042042039597590"), b1.mult(b2));
-
-        b1 = new BigNumber("234890456345345345345345234456456456345345");
-        b2 = new BigNumber("1228");
-        assertEquals(new BigNumber("288445480392084084084083947912528528392083660"), b1.mult(b2));*/
-
-/*        b1 = new BigNumber("45354645634563456345456345234545897894562634563456");
-        b2 = new BigNumber("45634563456345634563456546799008905634563456456");
-        assertEquals(new BigNumber("993"), b1.div(b2));
-
-        b1 = new BigNumber("2134345456123486126462457864246456434312345");
-        b2 = new BigNumber("4534564545645644564564567861534978978512");
-        assertEquals(new BigNumber("470"), b1.div(b2)); */
-    }
 }

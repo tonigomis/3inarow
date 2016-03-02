@@ -1,12 +1,8 @@
 /**
  * Created by toni on 04/02/16.
  */
-public class BigNamber {
-    public static void main(String[] args) {
-    }
-}
 class BigNumber {
-    String contenidor;
+    private String contenidor;
 
     //Constructor1
     public BigNumber(String s) {
@@ -33,14 +29,15 @@ class BigNumber {
     // Mira si dos objectes BigNumber són iguals
 
     public boolean equals(Object o) {
+
         BigNumber b = (BigNumber) o;
 
-        /* return (this.contenidor.equals(b.contenidor));*/
+        return (this.contenidor.equals(b.contenidor));
 
-        if (this.contenidor.equals(b.contenidor)) {
-            return true;
+        /*if (this.contenidor.equals(b.contenidor)) {
+        return true;
         }
-        return false;
+        return false;*/
     }
 
     //Add String
@@ -140,6 +137,7 @@ class BigNumber {
         return 0;
     }
 
+/* Aquesta part no és vàlida
     // Multiply String
     BigNumber mult(BigNumber other) {
         String s1 = this.contenidor;
@@ -161,10 +159,11 @@ class BigNumber {
         }
         return other;
     }
+*/
 
     //Reverse String
 
-    String reverse(String s) {
+    private String reverse(String s) {
         String resultat = "";
         for(int i = s.length() - 1; i >= 0; i--) {
             resultat += s.charAt(i);
